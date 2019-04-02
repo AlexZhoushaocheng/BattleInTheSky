@@ -3,8 +3,7 @@
 * 视差滚动
 * Actions
 * Ease
-* Frame 
-* animation
+* Frame animation
 * Schedule
 * UI组件
 * Event Listener
