@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="MyMoonWarriors" targetName="ext_md5" />
+      <config projectName="MyMoonWarriors" targetName="ext_edtaa3func" />
+      <config projectName="MyMoonWarriors" targetName="ext_tinyxml2" />
+      <config projectName="MyMoonWarriors" targetName="ext_poly2tri" />
+      <config projectName="MyMoonWarriors" targetName="ext_clipper" />
+      <config projectName="MyMoonWarriors" targetName="ext_unzip" />
+      <config projectName="MyMoonWarriors" targetName="ext_recast" />
+      <config projectName="MyMoonWarriors" targetName="MyMoonWarriors" />
+      <config projectName="MyMoonWarriors" targetName="cocos2d" />
+      <config projectName="MyMoonWarriors" targetName="ext_xxtea" />
+      <config projectName="MyMoonWarriors" targetName="ext_xxhash" />
+      <config projectName="MyMoonWarriors" targetName="external" />
+      <config projectName="MyMoonWarriors" targetName="ext_convertUTF" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b52f887-1e35-451b-abc8-dc4355c9f295" name="Default Changelist" comment="修改：新增加代码&#10;审核：NA">
+      <change afterPath="$PROJECT_DIR$/.cocos-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MyMoonWarriors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/AppDelegate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Bullet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Bullet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Effect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Effect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Enemy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Enemy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/GameBG.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/GameBG.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/GameLayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/GameLayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/HelloWorldScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/HelloWorldScene.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Ship.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Ship.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/SysMenu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/SysMenu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/config/EnemyType.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/config/GameConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/config/Level.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/CloseNormal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/CloseSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/HelloWorld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/bgMusic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/bgMusic.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/bgMusic.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/buttonEffect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/buttonEffect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/buttonEffect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/explodeEffect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/explodeEffect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/explodeEffect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/fireEffect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/fireEffect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/fireEffect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/mainMainMusic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/mainMainMusic.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/mainMainMusic.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/shipDestroyEffect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/shipDestroyEffect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Music/shipDestroyEffect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/arial-14.GlyphProject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/arial-14.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/arial-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/b01.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cocos2d-html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/explosion.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/flare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/fonts/Marker Felt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/fonts/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/gameOver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/gameoverBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/level01.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/logoBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/menu-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/menu.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/menuTitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/res/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/textureOpaquePack.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/textureOpaquePack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/textureTransparentPack.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/textureTransparentPack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/MyMoonWarriors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/jni/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/jni/Application.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/jni/hellocpp/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/app/src/org/cocos2dx/cpp/AppActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/proj.android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/MyMoonWarriors.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/AppController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/AppController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-50@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-57@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-72@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/AppIcon.appiconset/Icon-83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/LaunchScreenBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/Prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/RootViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/RootViewController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/exportoptions.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/ios/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/mac/Icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/mac/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/mac/Prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.ios_mac/mac/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.linux/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/MyMoonWarriors.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/MyMoonWarriors.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/MyMoonWarriors.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/MyMoonWarriors.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/build-cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/game.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/res/game.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj.win32/resource.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-657038198">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cmake" value="2" />
+          <entry key="cpp" value="65" />
+          <entry key="functional" value="1" />
+          <entry key="h" value="109" />
+          <entry key="inl" value="1" />
+          <entry key="ios" value="1" />
+          <entry key="txt" value="7" />
+          <entry key="vector" value="1" />
+          <entry key="xiosbase" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="9" />
+          <entry key="ObjectiveC" value="179" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="9470" />
+          <entry key="h" value="3606" />
+          <entry key="txt" value="147" />
+          <entry key="xml" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="113" />
+          <entry key="Doxygen file" value="1" />
+          <entry key="ObjectiveC" value="13075" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="XML" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1438187063">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/GameLayer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj.win32/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/AppDelegate.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+              <folding>
+                <element signature="e#1284#1308#0" expanded="true" />
+                <element signature="e#2185#2204#0" expanded="true" />
+                <element signature="e#2239#2264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj.android/app/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Bullet.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/GameBG.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/SysMenu.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2299">
+              <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+              <folding>
+                <element signature="e#49#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Ship.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1691">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+              <folding>
+                <element signature="e#49#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Enemy.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2603">
+              <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
+              <folding>
+                <element signature="e#48#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Emn</find>
+      <find>'</find>
+      <find>char</find>
+      <find>MW.</find>
+      <find>menuWidh</find>
+      <find>const</find>
+      <find>menuWidth,menuHeight)</find>
+      <find>SpriteFrameCache::getInstance()-&gt;getSpriteFrameByName</find>
+      <find>include_directories</find>
+      <find>:</find>
+      <find>res</find>
+      <find>update</find>
+      <find>onKeyPressed</find>
+      <find>_keyboardEnabled</find>
+      <find>_keyboardListener</find>
+      <find>isKeyboardEnabled</find>
+      <find>_eventDispatcher</find>
+      <find>setB</find>
+      <find>setBl</find>
+      <find>addSpriteFramesWithFile</find>
+      <find>createShip</find>
+      <find>addChild</find>
+      <find>height</find>
+      <find>m_iHP</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>=</replace>
+      <replace>;</replace>
+      <replace>&quot;</replace>
+      <replace>const char</replace>
+      <replace>menuWidth</replace>
+      <replace>const</replace>
+      <replace>menuWidth,menuHeight</replace>
+      <replace>Sprite::createWithSpriteFrameName</replace>
+      <replace>int</replace>
+      <replace>RES</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alex Zhou" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Classes/Effect.cpp" />
+        <option value="$PROJECT_DIR$/Classes/SysMenu.h" />
+        <option value="$PROJECT_DIR$/Classes/GameBG.h" />
+        <option value="$PROJECT_DIR$/Classes/Resource.h" />
+        <option value="$PROJECT_DIR$/Classes/Effect.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Classes/Bullet.h" />
+        <option value="$PROJECT_DIR$/Classes/config/Level.h" />
+        <option value="$PROJECT_DIR$/Classes/Bullet.cpp" />
+        <option value="$PROJECT_DIR$/Classes/config/GameConfig.h" />
+        <option value="$PROJECT_DIR$/Classes/Enemy.h" />
+        <option value="$PROJECT_DIR$/Classes/Ship.h" />
+        <option value="$PROJECT_DIR$/proj.android/app/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Classes/SysMenu.cpp" />
+        <option value="$PROJECT_DIR$/Classes/GameLayer.h" />
+        <option value="$PROJECT_DIR$/Classes/GameBG.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Enemy.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Ship.cpp" />
+        <option value="$PROJECT_DIR$/Classes/config/EnemyType.h" />
+        <option value="$PROJECT_DIR$/Classes/AppDelegate.cpp" />
+        <option value="$PROJECT_DIR$/Classes/GameLayer.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/cocos2d/external/tinydir/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="527" />
+    <option name="y" value="33" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyMoonWarriors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMoonWarriors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMoonWarriors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMoonWarriors" type="462c0819:PsiDirectoryNode" />
+              <item name="proj.android" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMoonWarriors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="MyMoonWarriors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyMoonWarriors" RUN_TARGET_NAME="MyMoonWarriors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cocos2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="cocos2d" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_clipper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_clipper" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_convertUTF" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_convertUTF" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_edtaa3func" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_edtaa3func" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_md5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_md5" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_poly2tri" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_poly2tri" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_recast" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_recast" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_tinyxml2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_tinyxml2" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_unzip" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_unzip" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_xxhash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_xxhash" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext_xxtea" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="ext_xxtea" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="external" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMoonWarriors" TARGET_NAME="external" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.MyMoonWarriors" />
+      <item itemvalue="Application.cocos2d" />
+      <item itemvalue="Application.external" />
+      <item itemvalue="Application.ext_clipper" />
+      <item itemvalue="Application.ext_convertUTF" />
+      <item itemvalue="Application.ext_edtaa3func" />
+      <item itemvalue="Application.ext_md5" />
+      <item itemvalue="Application.ext_poly2tri" />
+      <item itemvalue="Application.ext_recast" />
+      <item itemvalue="Application.ext_tinyxml2" />
+      <item itemvalue="Application.ext_unzip" />
+      <item itemvalue="Application.ext_xxhash" />
+      <item itemvalue="Application.ext_xxtea" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b52f887-1e35-451b-abc8-dc4355c9f295" name="Default Changelist" comment="" />
+      <created>1553850227162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553850227162</updated>
+      <workItem from="1553850228417" duration="111558000" />
+      <workItem from="1554079938553" duration="48958000" />
+      <workItem from="1554178320974" duration="3093000" />
+      <workItem from="1554182332777" duration="605000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改：新增加代码&#10;审核：NA">
+      <created>1554181435527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554181435527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="164214000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49946696" visible="true" weight="0.330076" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3257329" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49946696" visible="true" weight="0.3257329" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="修改：新增加代码&#10;审核：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改：新增加代码&#10;审核：NA" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Classes/SysMenu.cpp</url>
+          <line>113</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCMenuItem.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCActionInstant.h" />
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/functional">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1920" column="57" selection-start-line="1920" selection-start-column="57" selection-end-line="1920" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/ccMacros.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCMenuItem.cpp" />
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_new.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/renderer/CCTextureCache.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCScene.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/CCScheduler.h" />
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1628" column="62" lean-forward="true" selection-start-line="1628" selection-start-column="62" selection-end-line="1628" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/GameBG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCSpriteFrameCache.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCNode.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/ccRandom.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCSprite.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/platform/CCPlatformMacros.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/CCEventKeyboard.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/CCEvent.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCLayer.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCLayer.h" />
+    <entry file="file://$PROJECT_DIR$/Classes/Effect.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCSprite.cpp" />
+    <entry file="file://$PROJECT_DIR$/Classes/Resource.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Effect.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#113#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Bullet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#114#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/CCRef.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCNode.h" />
+    <entry file="file://$PROJECT_DIR$/Classes/config/Level.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Enemy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#111#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/config/GameConfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ios">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xiosbase">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/math/Vec2.inl" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/math/Vec2.h" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/base/CCTouch.cpp" />
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/deprecated/CCDeprecated.h" />
+    <entry file="file://$PROJECT_DIR$/Classes/GameLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/platform/CCGLView.h" />
+    <entry file="file://$PROJECT_DIR$/Classes/Ship.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/SysMenu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/GameLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/config/EnemyType.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#120#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj.win32/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/AppDelegate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="e#1284#1308#0" expanded="true" />
+            <element signature="e#2185#2204#0" expanded="true" />
+            <element signature="e#2239#2264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj.android/app/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Bullet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/GameBG.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/SysMenu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+          <folding>
+            <element signature="e#49#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Ship.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <element signature="e#49#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Enemy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2603">
+          <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
+          <folding>
+            <element signature="e#48#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
